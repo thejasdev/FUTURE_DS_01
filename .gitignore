@@ -1,20 +1,16 @@
-# Jupyter
-.ipynb_checkpoints/
-*.ipynb_checkpoints
-
-# Python
-__pycache__/
-*.pyc
+# Python Environment
 .venv/
 venv/
+env/
+__pycache__/
+*.pyc
 
-# OS files
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# VS Code / IDE settings
+.vscode/
+
+# OS generated files
 .DS_Store
 Thumbs.db
-
-# Credentials
-kaggle.json
-*.env
-
-# Large/temp files
-*.tmp
