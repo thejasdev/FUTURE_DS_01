@@ -1,0 +1,61 @@
+{
+  "name": "Supermarket Brand Theme",
+  "dataColors": [
+    "#FFC000",
+    "#2D7BC6",
+    "#6B6B6B",
+    "#D64550",
+    "#F5D374",
+    "#7FA8D9",
+    "#B3B3B3",
+    "#E89AA0"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1F1F1F",
+  "tableAccent": "#FFC000",
+  "good": "#2D7BC6",
+  "neutral": "#F5C000",
+  "bad": "#D64550",
+  "maximum": "#2D7BC6",
+  "center": "#F5D374",
+  "minimum": "#FFFFFF",
+  "null": "#B3B3B3",
+  "textClasses": {
+    "callout": { "fontFace": "Segoe UI Semibold", "color": "#2D7BC6" },
+    "title": { "fontFace": "Segoe UI Semibold", "color": "#2D7BC6", "fontSize": 14 },
+    "header": { "fontFace": "Segoe UI Semibold", "color": "#1F1F1F" },
+    "label": { "fontFace": "Segoe UI", "color": "#6B6B6B" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#FFFFFF" } } }],
+        "border": [{ "show": false }]
+      },
+      "title": [
+        {
+          "fontColor": { "solid": { "color": "#2D7BC6" } },
+          "fontSize": 12,
+          "background": { "solid": { "color": "#FFFFFF" } }
+        }
+      ]
+    },
+    "card": {
+      "*": {
+        "labels": [
+          { "color": { "solid": { "color": "#FFC000" } }, "fontSize": 24 }
+        ],
+        "categoryLabels": [
+          { "color": { "solid": { "color": "#6B6B6B" } }, "fontSize": 10 }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "items": [
+          { "fontColor": { "solid": { "color": "#1F1F1F" } } }
+        ]
+      }
+    }
+  }
+}
